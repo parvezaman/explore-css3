@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+        p{
+            font-size: 30px;
+            text-decoration: bold;
+            text-align: center;
+            color:cornsilk;
+        }
+        .box{
+            height: 100px;  
+            width: 100px;
+            border: 1px solid rgb(255, 68, 68);
+        }
+        #box-1{
+            background-color: khaki;
+        }
+        #box-2{
+            background-color: rgb(17, 148, 17);
+        }
+        #box-3{
+            background-color: rgb(57, 203, 223);
+            /* visibility: hidden; */
+            display: none;
+        }
+        #box-4{
+            background-color: rgb(230, 166, 84);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">
+        <p>box-1</p>
+    </div>
+    <div class="box" id="box-2">
+        <p>box-2</p>
+    </div>
+    <div class="box" id="box-3">
+        <p>box-3</p>
+    </div>
+    <div class="box" id="box-4">
+        <p>box-4</p>
+    </div>
+</body>
+</html>
